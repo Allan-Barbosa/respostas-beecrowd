@@ -1,0 +1,34 @@
+q = 0
+q2 = 0
+q3 = 0
+q4 = 0
+q5 = 0
+q6 = 0
+n = float(input())
+n2 = float(input())
+n3 = float(input())
+n4 = float(input())
+n5 = float(input())
+n6 = float(input())
+c = 0
+if(n > 0):
+    c = c+1
+    q = n
+if(n2 > 0):
+    c = c+1
+    q2 = n2
+if(n3 > 0):
+    c = c+1
+    q3 = n3
+if(n4 > 0):
+    c = c+1
+    q4 = n4
+if(n5 > 0):
+    c = c+1
+    q5 = n5
+if(n6 > 0):
+    c = c+1
+    q6 = n6
+m = (q+q2+q3+q4+q5+q6)/c
+print("%d valores positivos" % c)
+print("%.1f" % m)

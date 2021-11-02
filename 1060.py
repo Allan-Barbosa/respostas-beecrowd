@@ -1,0 +1,20 @@
+n = float(input())
+n2 = float(input())
+n3 = float(input())
+n4 = float(input())
+n5 = float(input())
+n6 = float(input())
+c = 0
+if(n > 0):
+    c = c+1
+if(n2 > 0):
+    c = c+1
+if(n3 > 0):
+    c = c+1
+if(n4 > 0):
+    c = c+1
+if(n5 > 0):
+    c = c+1
+if(n6 > 0):
+    c = c+1
+print("%d valores positivos" % c)
